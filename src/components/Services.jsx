@@ -56,6 +56,7 @@ export default function Services() {
         <Stack direction={"row"} gap={3}>
           {services.map((service) => (
             <Paper
+              key={service.title}
               sx={{
                 display: "flex",
                 alignItems: "center",

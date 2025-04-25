@@ -4,6 +4,7 @@ import Promo from "./components/Promo";
 import Services from "./components/Services";
 import { Box } from "@mui/material";
 import { useTheme } from "@emotion/react";
+import Categories from "./components/Categories";
 
 export default function App() {
   const theme = useTheme();
@@ -13,6 +14,7 @@ export default function App() {
       <Promo />
       <Box sx={{ bgcolor: theme.palette.custom.bgColor }}>
         <Services />
+        <Categories />
       </Box>
     </>
   );
