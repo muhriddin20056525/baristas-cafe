@@ -6,6 +6,7 @@ import { Box } from "@mui/material";
 import { useTheme } from "@emotion/react";
 import Categories from "./components/Categories";
 import Products from "./components/Products";
+import Gallery from "./components/Gallery";
 
 export default function App() {
   const theme = useTheme();
@@ -17,6 +18,7 @@ export default function App() {
         <Services />
         <Categories />
         <Products />
+        <Gallery />
       </Box>
     </>
   );
