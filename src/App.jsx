@@ -7,6 +7,8 @@ import { useTheme } from "@emotion/react";
 import Categories from "./components/Categories";
 import Products from "./components/Products";
 import Gallery from "./components/Gallery";
+import Especiales from "./components/Especiales";
+import Blogs from "./components/Blogs";
 
 export default function App() {
   const theme = useTheme();
@@ -19,6 +21,8 @@ export default function App() {
         <Categories />
         <Products />
         <Gallery />
+        <Especiales />
+        <Blogs />
       </Box>
     </>
   );

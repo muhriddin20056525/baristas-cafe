@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  Stack,
-  styled,
-  Typography,
-  useTheme,
-} from "@mui/material";
+import { Box, Button, Stack, styled, Typography } from "@mui/material";
 import cafe1 from "../assets/cafe-irish.jpg";
 import cafe2 from "../assets/cafe-ingles.jpg";
 import cafe3 from "../assets/cafe-australiano.jpg";
