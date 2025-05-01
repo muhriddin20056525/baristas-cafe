@@ -9,6 +9,7 @@ import Products from "./components/Products";
 import Gallery from "./components/Gallery";
 import Especiales from "./components/Especiales";
 import Blogs from "./components/Blogs";
+import Footer from "./components/Footer";
 
 export default function App() {
   const theme = useTheme();
@@ -24,6 +25,7 @@ export default function App() {
         <Especiales />
         <Blogs />
       </Box>
+      <Footer />
     </>
   );
 }
